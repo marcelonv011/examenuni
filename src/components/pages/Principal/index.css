@@ -1,0 +1,22 @@
+.cab{
+    background-color: black;
+    width: 1519px;
+    height: 128px;
+}
+
+.nueva{
+    height: 500px;
+    margin: 20px 0px 0 500px ;
+    width: 600px;
+    vertical-align: middle;
+}
+
+.aba{
+    background-color: cornflowerblue;
+    height: 1200px;
+    margin: 0;
+}
+
+.texto{
+    text-align: center;
+}

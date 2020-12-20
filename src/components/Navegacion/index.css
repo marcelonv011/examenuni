@@ -1,0 +1,35 @@
+.menu ul {
+    background-color: rgb(16, 29, 66);
+    transition: all 0.2s linear;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    display:inline-flex;
+    justify-content: center;
+    padding: 15px;
+    width: 400px;
+    font-family: "arial";
+    font-size: 20pt;
+    transition: all 0.2s linear;
+    color: #434343;
+    border-bottom: 2px solid rgb(0, 247, 255);
+    background-color: rgb(218, 31, 31);
+    margin: 1px -150px 0 250px ;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    background-color: #000000;
+    text-decoration: none;
+  }
+  
+  #button {
+    padding: 0;
+  }
+
+    #button li {
+        display: inline;
+  }
+

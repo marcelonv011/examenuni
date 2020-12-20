@@ -1,0 +1,45 @@
+@keyframes tipsy {
+    0%{
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100%{
+        transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+}
+  
+  .logo {
+    align-items: right;
+    color: #fffbf1;
+    text-shadow: 0 5px 5px #2e2e31, 0 5px 10px #2e2e31;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -3px;
+    top: 50%;
+    margin: -310px -680px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .logo:before, .logo:after {
+    content: '';
+    padding: .9em .4em;
+    left: 50%;
+    width: 100%;
+    top: 40%;
+    position: absolute;
+    display: block;
+    border: 15px solid red;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: 10s infinite alternate ease-in-out tipsy;
+  }
+  
+  .logo:before {
+    border-color: #d9524a #d9524a #d9524a;;
+    z-index: -1;
+  }
+  
+  p:after {
+    border-color:  #d9524a #d9524a #d9524a #d9524a;
+  }
